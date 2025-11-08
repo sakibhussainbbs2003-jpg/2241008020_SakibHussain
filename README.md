@@ -1,7 +1,8 @@
 # 2241008020_SakibHussain
 
-#!/bin/bash
 # Automated Backup Script
+#!/bin/bash
+
 SRC="$HOME/Documents"           # Source directory
 DEST="$HOME/backup"             # Backup directory
 DATE=$(date +%Y-%m-%d_%H-%M-%S) # Timestamp
@@ -13,8 +14,8 @@ echo "✅ Backup completed successfully at $DATE."
 echo "📁 Backup saved to: $DEST/backup_$DATE.tar.gz"
 ----------------------------------------------------------------------------------------
 
-#!/bin/bash
 # System Update and Cleanup 
+#!/bin/bash
 
 echo "Simulating system update..."
 sleep 1
@@ -28,8 +29,8 @@ echo "✅ Update and cleanup process completed (simulated)."
 
 -------------------------------------------------------------------------------------------
 
-#!/bin/bash
 # Log Monitoring Script
+#!/bin/bash
 
 LOG_FILE="/var/log/syslog"
 ALERT_KEYWORD="error"
@@ -44,8 +45,9 @@ else
 fi
 
 ---------------------------------------------------------------------------------------------
-#!/bin/bash
+
 # Maintenance Suite Menu
+#!/bin/bash
 
 while true; do
     echo "=============================="
@@ -68,8 +70,8 @@ done
 
 ----------------------------------------------------------------------------------------------------
 
-#!/bin/bash
 # Enhanced Maintenance Suite with Logging
+#!/bin/bash
 
 LOG_FILE="/home/$USER/maintenance.log"
 
